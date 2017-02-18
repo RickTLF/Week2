@@ -1,12 +1,20 @@
 #include "stdafx.h"
 #include "Provider.h"
 
-#pragma once
+void Provider::setLijst(Mobiel *lst)
+{
+	lijst = lst;
+}
 
-// Mobiel::Mobiel *lijst;
-	
-void Provider::setLijst(Mobiel *lst) {
 
+
+//Provider::Provider(Mobiel *lst)
+	//:lijst(lst) // Initializer list.
+//{}
+
+/*
+Mobiel * Provider::getMobiel(int nr) {
+	return nullptr;
 }
 
 Mobiel Provider::*getMobiel(int nr) {
@@ -15,6 +23,6 @@ Mobiel Provider::*getMobiel(int nr) {
 	
 void Provider::verwerkBericht(const Sms &sms) {
 
-}
+}*/
 
 

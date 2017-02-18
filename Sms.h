@@ -3,6 +3,7 @@
 
 using namespace std;
 
+/*
 class Sms {
 	int van;
 	int naar;
@@ -15,3 +16,4 @@ public:
 
 private:
 };
+*/
